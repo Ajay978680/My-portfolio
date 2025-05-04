@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <link rel="icon" type="image/png" href="assets/images/icons8-circled-a-50.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="assets/images/icons8-a-64.png" />
   <title>Ajaykanna K - Portfolio</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
   <!-- Left Sidebar (Profile Information) -->
@@ -32,19 +34,20 @@
       </a>
     </div>
 
-    <div>
+    <div class="sidebar-section">
       <h3>Languages</h3>
-      <ul>
+      <ul class="sidebar-list">
         <li>Tamil – Native</li>
         <li>English – Fluent</li>
       </ul>
     </div>
 
-    <div>
+    <div class="sidebar-section">
       <h3>Soft Skills</h3>
-      <ul>
+      <ul class="sidebar-list">
         <li>Good Communicator</li>
-        <li>LeaderShip</li>
+        <li>Leadership</li>
+        <li>Collaborator</li>
       </ul>
     </div>
 
@@ -68,39 +71,40 @@
     <!-- About Section -->
     <section id="about">
       <h2>About Me</h2>
-      <p>I'm Ajaykanna, aspiring Software Developer currently pursuing an MCA degree and aiming to get a Job in Well Reputed Comapany. Looking Forward to Learn New Technologies. </p>
+      <p>I'm Ajaykanna, aspiring Software Developer currently pursuing an MCA degree and aiming to get a Job in Well
+        Reputed Comapany. Looking Forward to Learn New Technologies. I have Intresting in DevOps, Cloud(AWS).</p>
     </section>
 
     <!-- Education Section -->
     <section id="education">
       <h2>Education</h2>
       <div class="education-container">
-    
+
         <div class="education-card">
           <img src="assets/images/kec.jpeg" alt="MCA" />
           <h3>Master of Computer Applications (MCA)</h3>
           <p>Kongu Engineering College<br>2024 - Present</p>
           <p><strong>CGPA:</strong> 8.92 (Current)</p>
         </div>
-    
+
         <div class="education-card">
           <img src="assets/images/cgac.jpg" alt="BCA" />
           <h3>Bachelor of Computer Applications (BCA)</h3>
           <p>Chikkanna Government Arts College, Tiruppur<br>2021 - 2024</p>
           <p><strong>CGPA:</strong> 8.13</p>
         </div>
-    
+
         <div class="education-card">
           <img src="assets/images/erk.jpg" alt="HSC & SSLC" />
           <h3>HSC & SSLC</h3>
           <p>ERK Higher Secondary School, Dharmapuri<br>2018 - 2021</p>
           <p><strong>HSC:</strong> 94.3% <br> <strong>SSLC:</strong> 91.3%</p>
         </div>
-    
+
       </div>
     </section>
-    
-    
+
+
 
     <!-- Skills Section -->
     <section id="skills">
@@ -147,52 +151,79 @@
     </section>
 
     <section id="certifications-languages">
-      <h2>Certifications </h2>
+      <h2>Certifications</h2>
       <div class="cert-lang-container">
-        
+
         <div class="certifications">
           <div class="cert-columns">
             <ul>
-              <li>AWS Cloud parctitioner Essentials - AWS SkillBuilder</li>
+              <li>AWS Cloud Practitioner Essentials - AWS SkillBuilder</li>
               <li>C Programming - Qspiders</li>
               <li>Business Learning - LinkedIn Learning</li>
+              <li>Git Foundations</li>
             </ul>
             <ul>
               <li>Microsoft Advanced - IBM (Naan Mudhalvan)</li>
               <li>Git & GitHub – CodeAcademy</li>
               <li>MongoDB Associate Developer – MongoDB University</li>
+              <li><a href="https://drive.google.com/drive/folders/1pydxopUkqVFLR9NZ3FAkdDrPpq8ajFPB" target="_blank">Show More</a></li>
             </ul>
           </div>
         </div>
       </div>
     </section>
-    
+
+
 
     <!-- Projects Section -->
     <section id="projects">
       <h2>Projects</h2>
-      <div class="projects-container">
 
-        <div class="project-card">
-          <img src="assets/images/food website.png" alt="Food Ordering Website Screenshot" />
-          <h3>Food Ordering Website</h3>
-          <p>Created using React.js for frontend and MongoDB Atlas for backend. Hosted on Vercel.</p>
+      <div class="projects-wrapper">
+        <div class="projects-container">
+
+          <div class="project-card">
+            <img src="assets/images/Iot-Hackathon.jpeg" alt="Job Portal Website Screenshot" />
+            <h3>IoT - Air Quality Monitoring System</h3>
+            <p>Its an IoT Project. The project tools are React JS (Frontend) and C++ for code For Hardware Level Programming. We use Node MCU esp 8266 module.</p>
+          </div>
+
+          <div class="project-card">
+            <img src="assets/images/food website.png" alt="Food Ordering Website Screenshot" />
+            <h3>Food Ordering Website</h3>
+            <p>Created using React.js for frontend and MongoDB Atlas for backend. Hosted on Vercel.</p>
+          </div>
+
+          <div class="project-card">
+            <img src="assets/images/Budget tracker.jpg" alt="Budget Tracker Screenshot" />
+            <h3>Budget Tracker System</h3>
+            <p>Created using React Native for frontend and Supabase for database. It works on both Android and iOS
+              devices.</p>
+          </div>
+
+          <div class="project-card">
+            <img src="assets/images/jobportal.png" alt="Job Portal Website Screenshot" />
+            <h3>Job Portal Website</h3>
+            <p>Created using React.js for frontend and MongoDB Atlas for backend. It's my ongoing project.</p>
+          </div>
+
+          <div class="project-card">
+            <img src="assets/images/PowerBI-Analytics.png" alt="power BI Screenshot" />
+            <h3>HR Analysis Dashboard</h3>
+            <p>Using Power BI to generate the Beautiful Dashboards using DAX Functions From Excel data.</p>
+          </div>
+
+
         </div>
 
-        <div class="project-card">
-          <img src="assets/images/Budget tracker.jpg" alt="Budget Tracker Screenshot" />
-          <h3>Budget Tracker System</h3>
-          <p>Created using React Native for frontend and Supabase for database. It works on both Android and iOS devices.</p>
-        </div>
-
-        <div class="project-card">
-          <img src="assets/images/jobportal.png" alt="Job Portal Website Screenshot" />
-          <h3>Job Portal Website</h3>
-          <p>Created using React.js for frontend and MongoDB Atlas for backend. It's my ongoing project.</p>
-        </div>
+        <!-- Arrow outside the container -->
+        <a href="https://github.com/Ajay978680" target="_blank" class="arrow-link">
+          <img src="assets/images/icons8-right-arrow-50.png" alt="Go to GitHub" class="arrow-image" />
+        </a>
 
       </div>
     </section>
+
 
     <!-- Contact Section -->
     <section id="contact" class="contact-form">
@@ -203,19 +234,19 @@
           <input type="email" name="email" class="form-input" placeholder="Your Email" required />
         </div>
         <textarea name="message" class="form-input" placeholder="Your Message" required></textarea>
-        
+
         <!-- Optional hidden fields -->
         <input type="hidden" name="_captcha" value="false" />
         <input type="hidden" name="_next" value="https://yourdomain.com/thankyou.html" />
-    
+
         <button class="form-btn" type="submit">
           <ion-icon name="paper-plane"></ion-icon>
           <span>Send Message</span>
         </button>
       </form>
     </section>
-    
-    
+
+
 
     <!-- Footer -->
     <footer>
@@ -225,4 +256,5 @@
 
   <script src="script.js"></script>
 </body>
+
 </html>
